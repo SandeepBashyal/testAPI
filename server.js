@@ -7,6 +7,10 @@ app.get('/',(req,res)=>{
     res.send("Api is running")
 });
 
+app.get('/test',(req,res)=>{
+    res.send("test is running")
+});
+
 const PORT = 3000;
 
 app.listen(PORT,()=>{
